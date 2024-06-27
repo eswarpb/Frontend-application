@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <h2 align="center">Registeration Form</h2>
+    </head>
+    <body bgcolor="blue">
+        <form action="">
+            <fieldset>
+<center>
+    <fieldset>
+        <legend>USER DETAILS</DETAILS></legend><label style="font-size :20px" for="fname" readonly>first name</label>
+            <br><input type="text" id="fname" placeholder="eg:nick" required/>
+            <br><label style="font-size :20px" for="lname" disabled>last name</label>
+            <br><input type="text" id="lname" placeholder="eg:auther"/>
+            <br><label for="DOB">DOB</label>
+            <br><input type="date" id="DOB"/>
+            <br><label>Gender</label>
+            <br><input type="radio" id="m" name="male" >
+            <label for="m">Male</label><br>
+            <input type="radio" id="f" name="female">
+            <label for="f">female</label><br>
+        </fieldset>
+            <fieldset>
+                <br><label style="font-size :20px" for="mail">Email</label>
+            <br><input type="email" id="mail" placeholder="eg:xyz@mail.com" required autofocus/>
+            <br><label style="font-size :20px" for="mb">Mobile no</label>
+            <br><input type="tel" id="mb" placeholder="eg:999999999" pattern="[0-9]{10}"/>
+            <br><label style="font-size :20px" for="pssd">Password</label>
+            <br><input type="password" id="psd" placeholder="*****" pattern="[0-9]{8,16}"/>
+            <br><label for="doc">Documents (size 1MB TO 5MB)</label>
+            <br><input type="range" id="doc" min="0" max="50"/>
+            <br><label for="myFile">Documents</label>
+            <input type="file" id="myFile" name="filename">
+            <br><label for="favcolor">Select your favorite color:</label>
+            <br><input type="color" id="favcolor" name="favcolor" value="#ff0000"/>
+            <br><label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt"/>
+            <br><button type="submit">Register</button>
+        </fieldset>
+        </center>
+        </fieldset>
+        </form>
+    </body>
+</html>
